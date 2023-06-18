@@ -1,0 +1,85 @@
+列表
+
+列表，是python的一个序列的内置类型
+    （序列：python中最基本的数据结构，序列中包含索引，即每一个值都有对应的位置值，一般从0开始）
+
+可进行的操作：索引 切片 加 乘 检查成员
+
+列表的创建：
+
+list1 = ['Google','Runoob',1997,12354]
+list2 = [1,2,3,4,5]
+list3 = ["a","b","c"]
+
+访问列表中的值：
+
+使用下标定位值：
+list = ['red','green','blue','yellow','white','black']
+
+list[0]
+list[1]
+list[-1]
+list[-2]
+
+red
+green
+black
+white
+
+[]截取字符：
+list = [10,20,30,40,50,60,70,80,90]
+
+list[1:]
+list[0:4]
+#第二位到倒数第二位（不包括倒数第二位）
+list[1:-2]
+
+#最后一位不包含
+[20,30,40,50,60,70,80,90]
+[10,20,30,40]
+[20,30,40,50,60,70]
+
+
+更新列表：
+list = ['red','green','blue','yellow','white','black']
+
+增加
+list.append('google')
+在原有列表最后一个位置后面更新一个元素
+
+ ['red','green','blue','yellow','white','black','google']
+
+减少
+del list[2]
+
+['red','green','yellow','white','black']
+
+
+脚本操作符
+
+#长度
+len([1,2,3])
+
+3
+
+#组合
+[1,2,3]+[4,5,6]
+
+[1.2.3.4.5.6]
+
+#重复
+['nian']*2
+
+['nian','nian']
+
+#判断元素是否在列表中
+3 in [1,2,3]
+
+True
+
+#迭代
+for x in [1,2,3]:print(x,end="")
+
+1 2 3
+
+
